@@ -1,0 +1,54 @@
+Endpoints / tipos de jogo:
+
+1 - mega-sena
+2 - lotofacil
+3 - lotomania
+4 - super-sete
+5 - quina
+6 - dupla-sena
+7 - timemania
+8- dia-de-sorte
+
+quantos números jogar :
+
+1:{
+    min:6,
+    max:15,
+    dezenas:[1...60]
+}
+
+2:{
+    min:15,
+    max:20,
+    dezenas:[1...25]
+}
+3:{
+    min:50,
+    max:50,
+    dezenas:[1...1(00)]
+}
+4:{
+    min:7,
+    max:7,
+    dezenas:[(0...9)*7]
+}
+5:{
+    min:5,
+    max:15,
+    dezenas:[1...80]
+}
+6:{
+    min:6,
+    max:15,
+    dezenas:[1...50]
+}
+7:{
+    min:10,
+    max:10,
+    dezenas:[1...80] + time
+}
+8:{
+    min:7,
+    max:15,
+    dezenas:[1...31][1...12]
+}
